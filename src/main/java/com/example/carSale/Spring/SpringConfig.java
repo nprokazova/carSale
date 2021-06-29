@@ -15,7 +15,13 @@ public class SpringConfig {
 
     @Bean
     public SportConfiguration sportConfiguration(){
+
         return new SportConfiguration();
+    }
+
+    @Bean
+    public IndividualСonfiguration yourConfiguration() {
+        return new IndividualСonfiguration();
     }
 
     @Bean
@@ -28,4 +34,8 @@ public class SpringConfig {
         return new Car(sportConfiguration());
     }
 
+    @Bean
+    public Car yourCar() {
+        return new Car(yourConfiguration());
+    }
 }

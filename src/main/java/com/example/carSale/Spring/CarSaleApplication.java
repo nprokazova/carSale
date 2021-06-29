@@ -14,9 +14,11 @@ public class CarSaleApplication {
 
 		Car newCarForFamily = context.getBean("classicCar", Car.class);
 		Car newCarStudent = context.getBean("sportCar", Car.class);
+		Car newCarForYou = context.getBean("yourCar", Car.class);
 
 		System.out.println(newCarForFamily.readyForSale());
 		System.out.println(newCarStudent.readyForSale());
+		System.out.println(newCarForYou.readyForSale());
 	}
 
 

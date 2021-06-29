@@ -13,6 +13,8 @@ public class CarSaleApplication {
 				System.out.println(carForFamily.readyForSale());
 		Car carForYoung = new Car();
 				System.out.println(carForYoung.readyForSale());
+		Car carForYou = new Car();
+		System.out.println(carForYou.readyForSale());
 	}
 
 

@@ -14,11 +14,11 @@ class CarSaleApplicationTests {
 
 	@Test
 	void contextLoads() {
-		Car superCar = context.getBean("sportCar", Car.class);
+		Car superCar = context.getBean("yourCar", Car.class);
 
 		String result = superCar.readyForSale();
 
-		Assert.isTrue(result.equals("Car Ready in: Sport"));
+		Assert.isTrue(result.equals("Car Ready in: Individual"));
 	}
 
 }

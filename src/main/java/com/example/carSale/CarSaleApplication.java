@@ -14,6 +14,9 @@ public class CarSaleApplication {
 
 		Car carForYoung = new Car(new SportConfiguration());
 		System.out.println(carForYoung.readyForSale());
+
+		Car carForYou = new Car(new IndividualСonfiguration());
+		System.out.println(carForYou.readyForSale());
 	}
 
 
