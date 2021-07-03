@@ -20,5 +20,4 @@ class CarSaleApplicationTests {
 
 		Assert.isTrue(result.equals("Car Ready in: Individual"));
 	}
-
 }
